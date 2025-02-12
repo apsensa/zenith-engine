@@ -40,12 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Apsensa\\ZenithEngine\\": "src/"
+            "Apsensa\\Bundle\\ZenithEngineBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Apsensa\\ZenithEngine\\Tests\\": "tests/"
+            "Apsensa\\Bundle\\ZenithEngineBundle\\Tests\\": "tests/"
         }
     },
     "replace": {
