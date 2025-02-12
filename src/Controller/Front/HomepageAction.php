@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Apsensa\ZenithEngine\Controller\Front;
+namespace Apsensa\Bundle\ZenithEngineBundle\Controller\Front;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;

@@ -13,8 +13,8 @@ class ZenithEngineBundle extends AbstractBundle
     public function loadExtension(array $config, ContainerConfigurator $container, ContainerBuilder $builder): void
     {
         // load an XML, PHP or YAML file
-        $container->import('../Resources/config/services.yml');
-        $container->import('../Resources/config/routes.yaml');
+        $container->import('Resources/config/services.yaml');
+        $container->import('Resources/config/routes.yaml');
 
 //        // you can also add or replace parameters and services
 //        $container->parameters()
