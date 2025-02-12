@@ -1,0 +1,6 @@
+services:
+    zenith_engine.controller.homepage:
+      class: Apsensa\ZenithEngine\Controller\Front\HomepageAction
+      public: true
+      autowire: true
+      autoconfigure: true
