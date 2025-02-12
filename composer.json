@@ -1,5 +1,5 @@
 {
-    "name": "pg013c/zenith-engine",
+    "name": "apsensa/zenith-engine",
     "description": "A reusable engine for ecommerce platforms",
     "type": "symfony-bundle",
     "license": "MIT",
@@ -40,12 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Pg013c\\ZenithEngine\\": "src/"
+            "Apsensa\\ZenithEngine\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Pg013c\\ZenithEngine\\Tests\\": "tests/"
+            "Apsensa\\ZenithEngine\\Tests\\": "tests/"
         }
     },
     "replace": {
