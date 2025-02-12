@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Factory\Command;
+namespace Apsensa\ZenithEngine\Factory\Command;
 
-use Pg013c\ZenithEngine\Command\UserRegistrationCommand;
-use Pg013c\ZenithEngine\Validator\UserRegistrationValidator;
+use Apsensa\ZenithEngine\Command\UserRegistrationCommand;
+use Apsensa\ZenithEngine\Validator\UserRegistrationValidator;
 use Symfony\Component\HttpFoundation\Request;
 
 final class UserRegistrationCommandFactory

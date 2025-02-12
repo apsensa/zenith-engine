@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Entity;
+namespace Apsensa\ZenithEngine\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
-use Pg013c\ZenithEngine\Repository\ProductAttributeRepository;
+use Apsensa\ZenithEngine\Repository\ProductAttributeRepository;
 
 #[ORM\Entity(repositoryClass: ProductAttributeRepository::class)]
 class ProductAttribute

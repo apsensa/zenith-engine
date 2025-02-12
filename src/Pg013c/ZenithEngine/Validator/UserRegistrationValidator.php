@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Validator;
+namespace Apsensa\ZenithEngine\Validator;
 
 use App\ValidatorConstraint\BoolConstraint;
-use Pg013c\ZenithEngine\ValidatorConstraint\EmailConstraint;
-use Pg013c\ZenithEngine\ValidatorConstraint\PasswordConstraint;
+use Apsensa\ZenithEngine\ValidatorConstraint\EmailConstraint;
+use Apsensa\ZenithEngine\ValidatorConstraint\PasswordConstraint;
 use Symfony\Component\Validator\Constraints\Collection;
 use Symfony\Component\Validator\ConstraintViolationListInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface as BaseValidatorInterface;

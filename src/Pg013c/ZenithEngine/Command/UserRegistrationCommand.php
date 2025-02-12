@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Command;
+namespace Apsensa\ZenithEngine\Command;
 
 class UserRegistrationCommand
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Controller\Admin;
+namespace Apsensa\ZenithEngine\Controller\Admin;
 
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
-use Pg013c\ZenithEngine\Entity\ProductOffer;
+use Apsensa\ZenithEngine\Entity\ProductOffer;
 
 class ProductOfferCrudController extends AbstractCrudController
 {

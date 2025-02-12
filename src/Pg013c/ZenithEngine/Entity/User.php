@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Entity;
+namespace Apsensa\ZenithEngine\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Pg013c\ZenithEngine\Repository\UserRepository;
+use Apsensa\ZenithEngine\Repository\UserRepository;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
 

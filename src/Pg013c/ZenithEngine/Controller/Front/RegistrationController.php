@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Controller\Front;
+namespace Apsensa\ZenithEngine\Controller\Front;
 
-use Pg013c\ZenithEngine\CommandHandler\UserRegistrationCommandHandler;
-use Pg013c\ZenithEngine\Factory\Command\UserRegistrationCommandFactory;
+use Apsensa\ZenithEngine\CommandHandler\UserRegistrationCommandHandler;
+use Apsensa\ZenithEngine\Factory\Command\UserRegistrationCommandFactory;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

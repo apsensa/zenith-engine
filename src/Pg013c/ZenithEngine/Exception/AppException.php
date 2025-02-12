@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Exception;
+namespace Apsensa\ZenithEngine\Exception;
 
 use Exception;
 use Symfony\Component\HttpFoundation\Response;

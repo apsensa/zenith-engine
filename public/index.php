@@ -1,6 +1,6 @@
 <?php
 
-use Pg013c\ZenithEngine\Pg013c\ZenithEngine\Kernel;
+use Apsensa\ZenithEngine\Apsensa\ZenithEngine\Kernel;
 
 require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\ValidatorConstraint;
+namespace Apsensa\ZenithEngine\ValidatorConstraint;
 
 use Symfony\Component\Validator\Constraint;
 

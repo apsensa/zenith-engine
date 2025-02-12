@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\DataFixtures;
+namespace Apsensa\ZenithEngine\DataFixtures;
 
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
-use Pg013c\ZenithEngine\Entity\User;
+use Apsensa\ZenithEngine\Entity\User;
 use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 
 class AppFixtures extends Fixture

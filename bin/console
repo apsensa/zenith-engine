@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-use Pg013c\ZenithEngine\Pg013c\ZenithEngine\Kernel;
+use Apsensa\ZenithEngine\Apsensa\ZenithEngine\Kernel;
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 
 if (!is_dir(dirname(__DIR__).'/vendor')) {

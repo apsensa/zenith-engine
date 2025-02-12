@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Controller\Admin;
+namespace Apsensa\ZenithEngine\Controller\Admin;
 
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
-use Pg013c\ZenithEngine\Entity\ProductAttribute;
-use Pg013c\ZenithEngine\Entity\ProductCategory;
-use Pg013c\ZenithEngine\Entity\ProductOffer;
-use Pg013c\ZenithEngine\Entity\ProductTemplate;
-use Pg013c\ZenithEngine\Entity\ProductValue;
-use Pg013c\ZenithEngine\Entity\User;
+use Apsensa\ZenithEngine\Entity\ProductAttribute;
+use Apsensa\ZenithEngine\Entity\ProductCategory;
+use Apsensa\ZenithEngine\Entity\ProductOffer;
+use Apsensa\ZenithEngine\Entity\ProductTemplate;
+use Apsensa\ZenithEngine\Entity\ProductValue;
+use Apsensa\ZenithEngine\Entity\User;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 

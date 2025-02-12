@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Entity;
+namespace Apsensa\ZenithEngine\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
-use Pg013c\ZenithEngine\Repository\ProductValueRepository;
+use Apsensa\ZenithEngine\Repository\ProductValueRepository;
 
 #[ORM\Entity(repositoryClass: ProductValueRepository::class)]
 class ProductValue

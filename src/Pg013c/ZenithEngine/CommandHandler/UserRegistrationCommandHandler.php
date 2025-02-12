@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\CommandHandler;
+namespace Apsensa\ZenithEngine\CommandHandler;
 
-use Pg013c\ZenithEngine\Command\UserRegistrationCommand;
+use Apsensa\ZenithEngine\Command\UserRegistrationCommand;
 
 class UserRegistrationCommandHandler
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Controller\User;
+namespace Apsensa\ZenithEngine\Controller\User;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;

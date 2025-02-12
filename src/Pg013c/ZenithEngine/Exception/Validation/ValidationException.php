@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Exception\Validation;
+namespace Apsensa\ZenithEngine\Exception\Validation;
 
-use Pg013c\ZenithEngine\Exception\AppException;
+use Apsensa\ZenithEngine\Exception\AppException;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Validator\ConstraintViolationListInterface;
 

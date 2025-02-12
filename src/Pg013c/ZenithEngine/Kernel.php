@@ -1,6 +1,6 @@
 <?php
 
-namespace Pg013c\ZenithEngine;
+namespace Apsensa\ZenithEngine;
 
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
 use Symfony\Component\HttpKernel\Kernel as BaseKernel;

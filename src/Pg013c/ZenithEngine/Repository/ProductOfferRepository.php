@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Pg013c\ZenithEngine\Repository;
+namespace Apsensa\ZenithEngine\Repository;
 
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
-use Pg013c\ZenithEngine\Entity\ProductOffer;
+use Apsensa\ZenithEngine\Entity\ProductOffer;
 
 /**
  * @extends ServiceEntityRepository<ProductOffer>
