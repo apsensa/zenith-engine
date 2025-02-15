@@ -1,11 +1,10 @@
 {
-    "name": "apsensa/zenith-engine",
+    "name": "apsensa/zenith-engine-bundle",
     "description": "A reusable engine for ecommerce platforms",
     "type": "symfony-bundle",
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "version": "v0.0.3",
     "require": {
         "php": ">=8.2",
         "ext-ctype": "*",
@@ -40,12 +39,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Apsensa\\Bundle\\ZenithEngineBundle\\": "src/"
+            "Apsensa\\ZenithEngineBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Apsensa\\Bundle\\ZenithEngineBundle\\Tests\\": "tests/"
+            "Apsensa\\ZenithEngineBundle\\Tests\\": "tests/"
         }
     },
     "replace": {
@@ -57,21 +56,6 @@
         "symfony/polyfill-php80": "*",
         "symfony/polyfill-php81": "*",
         "symfony/polyfill-php82": "*"
-    },
-    "scripts": {
-        "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
-        },
-        "post-install-cmd": [
-            "@auto-scripts"
-        ],
-        "post-update-cmd": [
-            "@auto-scripts"
-        ]
-    },
-    "conflict": {
-        "symfony/symfony": "*"
     },
     "extra": {
         "symfony": {

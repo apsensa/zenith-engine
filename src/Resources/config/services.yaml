@@ -1,6 +1,6 @@
 services:
     zenith_engine.controller.homepage:
-      class: Apsensa\Bundle\ZenithEngineBundle\Controller\Front\HomepageAction
+      class: Apsensa\ZenithEngineBundle\Controller\Front\HomepageAction
       public: true
       autowire: true
       autoconfigure: true

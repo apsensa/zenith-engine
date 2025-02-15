@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Apsensa\Bundle\ZenithEngineBundle\Controller\Front;
+namespace Apsensa\ZenithEngineBundle\Controller\Front;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
@@ -13,6 +13,6 @@ class HomepageAction extends AbstractController
     #[Route('/', name: 'front_home')]
     public function __invoke(): Response
     {
-        return $this->render('public/front/home.html.twig');
+        return $this->render('@ZenithEngineBundle/Resources/views/public/front/home.html.twig');
     }
 }
