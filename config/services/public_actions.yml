@@ -1,0 +1,18 @@
+---
+
+services:
+  zenith.action.homepage:
+    class: Apsensa\ZenithEngineBundle\Controller\Public\HomepageAction
+    public: true
+
+  zenith.action.security_login:
+    class: Apsensa\ZenithEngineBundle\Controller\Public\SecurityLoginAction
+    public: true
+
+  zenith.action.security_logout:
+    class: Apsensa\ZenithEngineBundle\Controller\Public\SecurityLogoutAction
+    public: true
+
+  zenith.action.security_register:
+    class: Apsensa\ZenithEngineBundle\Controller\Public\SecurityRegisterAction
+    public: true

@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Apsensa\ZenithEngine\Command;
 
-class UserRegistrationCommand
+readonly class UserRegistrationCommand
 {
     public function __construct(
-        private readonly string $username,
-        private readonly string $password,
+        private string $username,
+        private string $password,
     )
     {
     }

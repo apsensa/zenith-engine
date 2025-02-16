@@ -1,0 +1,5 @@
+---
+
+zenith_homepage:
+  path: /
+  controller: zenith.action.homepage

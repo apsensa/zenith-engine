@@ -1,0 +1,4 @@
+---
+
+services:
+    resource: '@ZenithEngineBundle/config/services/public_actions.yml'

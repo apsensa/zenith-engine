@@ -18,7 +18,7 @@
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Navbar brand -->
-            <a class="navbar-brand mt-2 mt-lg-0" href="{{ url('front_home') }}">
+            <a class="navbar-brand mt-2 mt-lg-0" href="{{ url('zenith_homepage') }}">
                 Zenith
             </a>
         </div>
@@ -30,8 +30,8 @@
                 {% if is_granted('IS_AUTHENTICATED_FULLY') %}
                     <li class="nav-item"><a class="nav-link" href="{{ url('user_index') }}">{{ app.user.email }}</a></li>
                 {% else %}
-                    <li class="nav-item"><a class="nav-link" href="{{ url('security_login') }}">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url('registration_register') }}">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url('zenith_security_login') }}">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url('zenith_security_register') }}">Register</a></li>
                 {% endif %}
             </ul>
 

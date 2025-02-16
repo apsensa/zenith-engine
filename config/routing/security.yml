@@ -1,0 +1,9 @@
+---
+
+zenith_security_login:
+  path: /
+  controller: zenith_engine.controller.homepage
+
+zenith_security_register:
+  path: /
+  controller: zenith_engine.controller.homepage

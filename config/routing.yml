@@ -1,0 +1,7 @@
+---
+
+zenith_public_routing:
+  resource: '@ZenithEngineBundle/config/routing/public.yml'
+
+zenith_security_routing:
+  resource: '@ZenithEngineBundle/config/routing/security.yml'
